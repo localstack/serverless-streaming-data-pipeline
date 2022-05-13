@@ -23,3 +23,7 @@ Alternatively, you can test end-to-end manually:
 * Start the local Tinybird server mock with `make start-request-recorder`
 * Emit an event by invoking the logger Lambda: `make invoke-test-logger-local`
 * Observe the event payload arrive in the mock server output.
+
+## Further Reading
+
+* [Develop and Test Real-time Data Pipelines with LocalStack](https://localstack.cloud/blog/2022-04-04-develop-and-test-data-analytics-pipelines-on-localstack/)
